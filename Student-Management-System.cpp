@@ -100,6 +100,7 @@ void enter()
 
 }
 
+
 void show()
 
 {
@@ -168,15 +169,15 @@ void search()
 
 						cout<<"Name : "<<arr1[i]<<endl;
 
-	    	        	cout<<"Roll no : "<<arr2[i]<<endl;
+						cout<<"Roll no : "<<arr2[i]<<endl;
 
-	    		        cout<<"Course : "<<arr3[i]<<endl;
+						cout<<"Course : "<<arr3[i]<<endl;
 
-                        cout<<"Section : "<<arr4[i]<<endl;
+						cout<<"Section : "<<arr4[i]<<endl;
 
-                        cout<<"Branch : "<<arr5[i]<<endl;
+						cout<<"Branch : "<<arr5[i]<<endl;
 
-                        cout<<"Contact :  "<<arr6[i]<<endl;
+						cout<<"Contact :  "<<arr6[i]<<endl;
 
 					}
 
@@ -220,41 +221,41 @@ void update()
 
 						cout<<"Name "<<arr1[i]<<endl;
 
-	    	        	cout<<"Roll no :  "<<arr2[i]<<endl;
+						cout<<"Roll no :  "<<arr2[i]<<endl;
 
-	    		        cout<<"Course :  "<<arr3[i]<<endl;
+						cout<<"Course :  "<<arr3[i]<<endl;
 
-                        cout<<"Section : "<<arr4[i]<<endl;
+						cout<<"Section : "<<arr4[i]<<endl;
 
-                        cout<<"Branch : "<<arr5[i]<<endl;
+						cout<<"Branch : "<<arr5[i]<<endl;
 
-                        cout<<"Contact :  "<<arr6[i]<<endl;
+						cout<<"Contact :  "<<arr6[i]<<endl;
 
-	    	        	cout<<"\nEnter new data"<<endl<<endl;
+						cout<<"\nEnter new data"<<endl<<endl;
 
-							cout<<"Enter name : ";
+						cout<<"Enter name : ";
 
-				            cin>>arr1[i];
+						cin>>arr1[i];
 
-				            cout<<"Enter Roll no : ";
+						cout<<"Enter Roll no : ";
 
-				            cin>>arr2[i];
+						cin>>arr2[i];
 
-			             	cout<<"Enter course : ";
+						cout<<"Enter course : ";
 
-				            cin>>arr3[i];
+						cin>>arr3[i];
 
-                            cout<<"Enter Section : ";
+						cout<<"Enter Section : ";
 
-                            cin>>arr4[i];
+						cin>>arr4[i];
 
-                            cout<<"Enter Branch : ";
+						cout<<"Enter Branch : ";
 
-                            cin>>arr5[i];
+						cin>>arr5[i];
 
-                            cout<<"Enter Contact : ";
+						cout<<"Enter Contact : ";
 
-                            cin>>arr6[i];
+						cin>>arr6[i];
 
 					}
 
@@ -320,17 +321,17 @@ void deleterecord()
 
 						{
 
-                            arr1[j]=arr1[j+1];
+						    arr1[j]=arr1[j+1];
 
-                            arr2[j]=arr2[j+1];
+						    arr2[j]=arr2[j+1];
 
-                            arr3[j]=arr3[j+1];
+						    arr3[j]=arr3[j+1];
 
-                            arr4[j]=arr4[j+1];
+						    arr4[j]=arr4[j+1];
 
-                            arr5[j]=arr5[j+1];
+						    arr5[j]=arr5[j+1];
 
-                            arr6[j]=arr6[j+1];
+						    arr6[j]=arr6[j+1];
 				     	}
 
 					total--;
