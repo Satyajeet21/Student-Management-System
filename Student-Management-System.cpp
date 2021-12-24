@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-string arr1[20],arr2[20],arr3[20],arr4[20],arr5[20],arr6[20];
+string arr1[25],arr2[25],arr3[25],arr4[25],arr5[25],arr6[25];
 
 int total=0;
 
